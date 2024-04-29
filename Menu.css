@@ -1,0 +1,30 @@
+@viewport {
+
+    width: device-width;
+
+ }
+@media screen and (min-width: 780px) {
+    .full-width-img {
+        margin: auto;
+        width: 90%;
+    }
+ }
+body{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    background-color: #D7DBDD;
+}
+#content{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    background-color: #f0f8ff;
+    width: 30vw;
+    height: 40vh;
+    justify-content: center;
+    border: 5px solid #000;
+}
